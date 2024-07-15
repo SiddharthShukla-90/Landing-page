@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f1f1f1;
+    margin: 0;
+    padding: 0;
+    color: # 333;
+}
+
+.container {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: #8b5cf6;
+    color: #fff;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+header nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    color: #ddd;
+}
+
+#hero {
+    background-image: url(https://images3.alphacoders.com/250/25007.jpg);
+    background-size: cover;
+    background-position: center;
+    color: # Black;
+    text-align: center;
+    padding: 100px 0;
+    
+}
+
+#features {
+    background-image: url(https://static.vecteezy.com/system/resources/previews/002/221/024/original/acoustic-guitar-and-piano-keys-music-instrument-background-illustration-free-vector.jpg); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+    color: Black;
+    text-align: right;
+    padding: 80px 0;
+}
+
+#about {
+    background-image: url(http://wallpapercave.com/wp/S1NfKXR.jpg);
+    background-size: cover;
+    background-position: center;
+    color: brown;
+    text-align: center;
+    padding: 80px 0;
+}
+
+#contact {
+    background-image: url(https://c0.wallpaperflare.com/preview/16/443/809/business-office-flatlay-contact-us.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #333;
+    text-align: left;
+    padding: 80px 0;
+}
+
+section {
+    position: relative;
+}
+
+.container {
+    position: relative;
+    z-index: 1;
+}
+
+.btn {
+    display: inline-block;
+    background-color: # fff;
+    color: #673ab;
+    text-decoration: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #bbb;
+    color: #673ab7;
+}
+
+form {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #673ab7;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #8b5cf6;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
